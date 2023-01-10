@@ -1,7 +1,20 @@
 package org.onepoint.eshop.model.customer;
 
-/**
- * A DTO for the {@link org.onepoint.eshop.entity.customer.CustomerEntity} entity
- */
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Accessors(chain = true)
 public class Customer {
+
+    private  Long id;
+    private  String firstName;
+    private  String lastName;
+    private  String email;
+    private String telephone;
 }

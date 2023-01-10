@@ -1,2 +1,8 @@
-package org.onepoint.eshop.entity.product;public class ProductStatus {
+package org.onepoint.eshop.entity.product;
+
+public enum ProductStatus
+{
+    AVAILABLE,
+    ONDEMAND,
+    UNAVAILABLE
 }

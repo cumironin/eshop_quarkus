@@ -1,4 +1,4 @@
-package org.onepoint.eshop.entity.order;
+package org.onepoint.eshop.model.order;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

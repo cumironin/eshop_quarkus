@@ -1,4 +1,4 @@
-package org.onepoint.eshop.entity.product;
+package org.onepoint.eshop.entity.customer;
 
 public enum CartStatus {
     NEW,
