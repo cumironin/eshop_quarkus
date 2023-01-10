@@ -1,0 +1,2 @@
+package org.onepoint.eshop.entity.product;public class ProductStatus {
+}
